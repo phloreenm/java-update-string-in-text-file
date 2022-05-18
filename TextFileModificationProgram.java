@@ -51,7 +51,8 @@ public class TextFileModificationProgram
      
     public static void main(String[] args)
     {
-        modifyFile("/Users/florinmaracine/documents/java-ed-file-v1.rtf", "95", "15");
+//    	Modify the file path as needed - this one is macOS specific. Windows will use full path
+        modifyFile("/Users/username/documents/java-ed-file-v1.rtf", "95", "15");
         System.out.println("done");
     }
 }
